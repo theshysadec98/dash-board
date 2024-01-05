@@ -1,14 +1,6 @@
 <script setup>
 import AuthProvider from '@/views/pages/authentication/AuthProvider.vue'
 import logo from '@images/logo.svg?raw'
-
-const form = ref({
-  email: '',
-  password: '',
-  remember: false,
-})
-
-const isPasswordVisible = ref(false)
 </script>
 
 <template>
@@ -127,6 +119,3 @@ const isPasswordVisible = ref(false)
   </div>
 </template>
 
-<style lang="scss">
-@use "@core/scss/template/pages/page-auth.scss";
-</style>

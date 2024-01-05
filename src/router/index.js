@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', redirect: '/dashboard' },
+    { path: '/', redirect: '/login' },
     {
       path: '/',
       component: () => import('../layouts/default.vue'),
@@ -49,6 +49,10 @@ const router = createRouter({
         {
           path: 'register',
           component: () => import('../pages/register.vue'),
+        },
+        {
+          path: 'phu',
+          component: () => import('../pages/phu-main.vue'),
         },
         {
           path: '/:pathMatch(.*)*',

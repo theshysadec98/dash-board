@@ -1,10 +1,12 @@
 <script setup>
+// eslint-disable-next-line import/no-unresolved
+import doremon from '/src/assets/images/cards/doremon.png'
+// eslint-disable-next-line import/no-unresolved
+import tranPhu from '/src/assets/images/cards/tran-phu.png'
 import { useTheme } from 'vuetify'
-import illustrationJohnDark from '@images/cards/illustration-john-dark.png'
-import illustrationJohnLight from '@images/cards/illustration-john-light.png'
 
 const { global } = useTheme()
-const illustrationJohn = computed(() => global.name.value === 'dark' ? illustrationJohnDark : illustrationJohnLight)
+const illustrationJohn = computed(() => global.name.value === 'dark' ? tranPhu : doremon)
 </script>
 
 <template>

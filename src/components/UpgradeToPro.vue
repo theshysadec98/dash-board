@@ -2,11 +2,11 @@
   <VBtn
     color="error"
     class="product-upgrade-to-pro"
-    href="https://themeselection.com/item/sneat-vuetify-vuejs-admin-template/"
+    href="https://facebook.com/Krilinz98w"
     target="_blank"
     rel="noopener noreferrer"
   >
-    Upgrade to Pro
+    Hỏi chấm
 
     <VMenu
       open-on-hover
@@ -17,28 +17,28 @@
       transition="slide-y-reverse-transition"
     >
       <VCard>
-        <VImg src="https://cdn.jsdelivr.net/gh/themeselection/ts-assets/sneat/sneat-vuetify-vuejs-admin-template/banner/banner.png" />
-        <VCardTitle>Sneat - Vuetify Admin Template</VCardTitle>
+        <VImg src="https://facebook.com/Krilinz98w" />
+        <VCardTitle>Đây là website của tao</VCardTitle>
         <VCardText>
-          Sneat Admin is the most developer friendly & highly customisable Admin Dashboard Template based on Vuetify.
+          Phú xe ôm, 1 mình tao chấp hết
         </VCardText>
-        <VCardText>Click on below button to explore PRO version.</VCardText>
+        <VCardText>Hãy gọi Phú là leesin vì Phú đéo thấy gì cả</VCardText>
         <VCardText>
           <VBtn
             class="me-4"
-            href="https://themeselection.com/item/sneat-vuetify-vuejs-admin-template/?tab=details#details"
+            href="https://facebook.com/Krilinz98w"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Demo
+            Hello mai phờ ren
           </VBtn>
           <VBtn
             variant="outlined"
-            href="https://themeselection.com/item/sneat-vuetify-vuejs-admin-template/"
+            href="https://facebook.com/Krilinz98w"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download
+            Đi đến facebook của Phú nào
           </VBtn>
         </VCardText>
       </VCard>
